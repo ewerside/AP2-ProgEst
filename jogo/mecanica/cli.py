@@ -126,7 +126,6 @@ def jogo():
         print(texto_tutorial, end=' ')
     print("Boa sorte!\n")
     tes = tesouro.Tesouro()
-    # mapa.desenhar(p1, tes)
 
     while True:
         mapa.desenhar(p1, tes)
